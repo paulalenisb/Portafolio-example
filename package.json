@@ -16,12 +16,12 @@
     "@babel/plugin-transform-modules-commonjs": "^7.6.0",
     "babel-jest": "^26.6.1",
     "eslint": "^7.12.1",
-    "gh-pages": "^3.1.0",
     "htmlhint": "^0.14.1",
     "jest": "^26.6.1",
     "opener": "^1.5.1",
     "serve": "^11.0.0",
-    "unsplash-js": "^7.0.4"
+    "unsplash-js": "^7.0.4",
+    "gh-pages": "^3.1.0"
   },
   "repository": {
     "type": "git",
@@ -34,8 +34,8 @@
   ],
   "author": "Paula Lenis B",
   "license": "MIT",
+  "homepage": "https://paulalenisb.github.io/portafolio-example",
   "bugs": {
     "url": "https://github.com/paulalenisb/Portafolio-example/issues"
-  },
-  "homepage": "https://github.com/paulalenisb/Portafolio-example#readme"
+  }
 }
