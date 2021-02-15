@@ -38,7 +38,7 @@ const photoArr = (data) => {
 
 const loadImg = () => {
 
-    fetch(`${Api.base}?query='food'&perpage=10&client_id=${Api.key}`)
+    fetch(`${Api.base}?query='agency'&perpage=10&client_id=${Api.key}`)
     .then(res => {
         if(res.ok) return res.json()
         else console.log(res.status);
