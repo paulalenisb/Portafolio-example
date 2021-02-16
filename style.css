@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Questrial&display=swap');
 
-/* font-family: 'Montserrat', sans-serif;
-font-family: 'Questrial', sans-serif; */
-
 *{
     margin: 0;
     padding: 0;
@@ -179,7 +176,7 @@ p{
 
 .img-1{
     grid-area: img-1;
-    background-image: url("../src/assets/img/Hover.png");
+    background-image: url("https://raw.githubusercontent.com/paulalenisb/Portafolio-example/main/src/assets/img/Hover.png");
 }
 
 .img-2{
@@ -231,22 +228,29 @@ p{
     grid-area: img-10;
     background-image: url("https://images.unsplash.com/photo-1505592465426-82d78ccb3c14?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjF8fGJyYW5kfGVufDB8fDB8&auto=format&fit=crop&w=400&q=60");
 }
-  .burger{
+
+.burger{
       display: none;
       cursor: pointer;
   }
 
-  .sn-footer{
+footer{
+    text-decoration: none !important;
+}
+
+.sn-footer{
       display: flex;
       justify-content: center;
       width: 100%;
       align-items: center;
       margin-bottom: 30px;
+      text-decoration: none;
   }
 
-  .icon-footer{
+.icon-footer{
       color: #3f525898;
       margin-left: 10px;
+      text-decoration: none;
   }
 
 .txt-footer{
@@ -254,6 +258,7 @@ p{
     font-family: 'Questrial', sans-serif;
     text-align: center;
     margin: 30px;
+    text-decoration: none;
 }
 
 span{
@@ -262,9 +267,7 @@ span{
   
 
 
-footer{
-    text-decoration: none;
-}
+
 
 @media screen and (max-width: 900px) {
     .container{
