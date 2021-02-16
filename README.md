@@ -13,3 +13,5 @@ La prueba consta de Maquetar y Desarrollar el home del diseño previamente compa
 - [x] La fuente es Google Montserrat and Questrial.
 - [x] Las imagenes para el portafolio puede usar https://unsplash.com/
 - [x] La versión responsive debe llevar un estilo de menú mobile.
+
+#### Visualizar el desarrollo [aquí](https://paulalenisb.github.io/Portafolio-example/)
