@@ -38,7 +38,7 @@ const photoArr = (data) => {
 
 const loadImg = () => {
 
-    fetch(`${Api.base}?query='agency'&perpage=10&client_id=${Api.key}`)
+    fetch(`${Api.base}?query='brand'&perpage=20&client_id=${Api.key}`)
     .then(res => {
         if(res.ok) return res.json()
         else console.log(res.status);
@@ -54,22 +54,4 @@ const loadImg = () => {
 window.onload = loadImg()
 console.log(loadImg());
 
-    // console.log(photo)
-    // // const photoData = data
-
-    // const gridPhoto = (photo) => {
-
-    //     let photoCard = [];
-    //     for ( let i = 0; i > photo.length; i++) {
-    //         photoCard += `
-    //         <img class ="image_pokemon" src="${photo[i].urls.regular}" alt="pokemon-image">
-    //         `
-    //     }
-
-    //     document.getElementById('unsplash').innerHTML = photoCard
-
-    //     console.log(photo);
-    // }
-
-    // gridPhoto(photo)
-    // console.log( gridPhoto(photo));
+   
