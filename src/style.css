@@ -120,9 +120,9 @@ p{
     margin-left: 13vh;
     margin-right: 13vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
 
 .img{
